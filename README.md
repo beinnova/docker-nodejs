@@ -3,7 +3,7 @@ docker-nodejs
 
 A Node JS Docker container
 
-** Container ** 
+# Container # 
 
 Quando il container parte viene eseguito lo script
 
@@ -12,7 +12,7 @@ Quando il container parte viene eseguito lo script
  ```
 Il conatiner espone la porta `8080`.
 
-** Build Image **
+# Build Image #
 
 Per creare  la propia immagine usando questo repo lanciare
 
@@ -20,7 +20,7 @@ Per creare  la propia immagine usando questo repo lanciare
 docker build -t <your_image_name>/nodejs https://github.com/beinnova/docker-nodejs.git
 ```
 
-** Start Image **
+# Start Image #
 
 Lo script `start.sh` si aspetta di tropvare il file `pacakage.json` nel path `/home/app`.
 Per prima cosa lancia un 
